@@ -39,3 +39,9 @@ public class majorityElement {
         System.out.println("Result 2: " + result2); // Output: 2
     }
 }
+
+// The core idea is to create a HashMap (table), and use it to store each digit and its frequency.
+// After inserting all the digit and their frequence into the table, we can iterate through the table to find the digit with the most occurence.
+
+// The time complexity is O(n), where n is the length of the input array.
+// The space complexity is O(n), where n is the number of unique elements in the input array.
